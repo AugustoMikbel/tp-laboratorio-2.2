@@ -33,6 +33,38 @@
     --mensaje-usuario-rojo: #dc3545;
 }
 
+.paso {
+    background-color: var(--magenta);
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.paso:hover {
+    background-color: var(--gris-claro);
+}
+
+.generales {
+    background-color: var(--celeste);
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.generales:hover {
+    background-color: var(--gris-claro);
+}
+
+
 .seccion {
     display: flex;
     padding-left: 1%;
