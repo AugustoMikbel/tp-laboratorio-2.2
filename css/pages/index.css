@@ -31,30 +31,37 @@
     --mensaje-usuario-amarillo: #ffc107;
     --mensaje-usuario-verde: #28a745;
     --mensaje-usuario-rojo: #dc3545;
-  }
-  
-.seccion{
+}
+
+.seccion {
     display: flex;
-    padding-left: 4%;
+    padding-left: 1%;
 }
-.seccion >p,br{
-    width: 50%;    
+
+.seccion>p,
+br {
+    width: 50%;
 }
-.seccion>img{
+
+.seccion>img {
     width: 25%;
     background-color: aqua;
     margin-left: 10%;
     margin-bottom: 5%;
 }
-#sec-contenido>h2,p{
+
+#sec-contenido>h2,
+p {
     padding-left: 4%;
 }
-.section-boton{
+
+.section-boton {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.bpaso{
+
+.bpaso {
     width: 400px;
     height: 100px;
     display: flex;
@@ -65,9 +72,24 @@
     color: #fff;
     font-size: 28px;
     padding: 1rem;
-    
+
 }
-.bgenerales{
+
+.bpaso>h1,
+svg {
+    padding-top: 3%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bgenerales>h1,
+svg {
+    padding-top: 3%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bgenerales {
     width: 400px;
     height: 100px;
     display: flex;
